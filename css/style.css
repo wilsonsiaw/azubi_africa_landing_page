@@ -4,3 +4,18 @@
     box-sizing: border-box;
 }
 
+/* Mobile styles */
+@media screen and (max-width: 400px) {
+
+}
+
+/* Table Styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+  
+}
+
