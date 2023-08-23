@@ -24,6 +24,13 @@ li {
         width: 393px;
         height: 70px;
     }
+
+    .logo {
+        width: 200px;
+        height: 32px;
+        padding: 19px;
+        padding-right: 174px;
+    }
 }
 
 /* Table Styles */
