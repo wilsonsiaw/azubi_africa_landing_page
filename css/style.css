@@ -20,7 +20,10 @@ li {
 
 /* Mobile styles */
 @media screen and (max-width: 400px) {
-    
+    header {
+        width: 393px;
+        height: 70px;
+    }
 }
 
 /* Table Styles */
