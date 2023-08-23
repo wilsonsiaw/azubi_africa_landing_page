@@ -10,9 +10,17 @@ body {
     font-family: Roboto;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 400px) {
-
+    
 }
 
 /* Table Styles */
