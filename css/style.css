@@ -21,7 +21,6 @@ li {
 /* Mobile styles */
 @media screen and (max-width: 400px) {
     header .container {
-        /* border: 1px solid red; */
         width: 393px;
         height: 70px;
         padding: 19px;
@@ -44,6 +43,15 @@ li {
 
     header .main-nav {
         display: none;
+    }
+
+    .overlay {
+        background-color: rgba(16, 16, 16, 0.90);
+        width: 393px;
+        height: 3099px;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 }
 
