@@ -25,11 +25,11 @@
                </nav>
            </div>
            <div class="menu-icon">
-                <i data-feather="menu"></i>
+                <i data-feather="menu" onclick="showOverlay()"></i>
             </div>
        </div>
 
-        <div class="overlay">
+        <div id="overlay">
             <div class="overlay-nav">
                 <ul>
                     <li><a href="#about">About Us</a></li>
@@ -37,7 +37,7 @@
                     <li><a href="#contact" id="contact">Contact Us</a></li>
                 </ul>
                 <div class="close-icon">
-                    <i data-feather="x"></i>
+                    <i data-feather="x" onclick="hideOverlay()"></i>
                 </div>
             </div>
         </div>
@@ -45,6 +45,14 @@
 
     <script>
         feather.replace();
+
+        function showOverlay() {
+            document.getElementById("overlay").style.display = "flex";
+        }
+
+        function hideOverlay() {
+            document.getElementById("overlay").style.display = "none";
+        }
     </script>
 </body>
 </html>
