@@ -105,7 +105,6 @@ li {
 /* Table Styles */
 @media screen and (min-width: 401px) and (max-width: 960px) {
     header .container {
-        border: 1px solid red;
         width: 834px;
         height: 70px;
         padding: 19px 35px;
@@ -122,6 +121,26 @@ li {
     .menu-icon {
         height: 24px;
         width: 24px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    #overlay {
+        background-color: rgba(16, 16, 16, 0.90);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
     }
 
 }
