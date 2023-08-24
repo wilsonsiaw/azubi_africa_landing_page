@@ -53,6 +53,13 @@ li {
         top: 0;
         left: 0;
     }
+
+    .overlay-nav a {
+        color: #fff;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
 
 /* Table Styles */
