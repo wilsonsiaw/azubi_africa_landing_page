@@ -105,12 +105,23 @@ li {
 /* Table Styles */
 @media screen and (min-width: 401px) and (max-width: 960px) {
     header .container {
+        border: 1px solid red;
         width: 834px;
         height: 70px;
         padding: 19px 35px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+        height: 32px;
+    }
+
+    .menu-icon {
+        height: 24px;
+        width: 24px;
     }
 
 }
