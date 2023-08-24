@@ -54,6 +54,13 @@ li {
         position: fixed;
         top: 0;
         left: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
     }
 
     .overlay-nav a {
