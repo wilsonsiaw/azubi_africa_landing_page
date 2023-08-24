@@ -43,11 +43,11 @@ li {
         margin-right: 23px;
     }
 
-    header .main-nav {
+    .main-nav {
         display: none;
     }
 
-    .overlay {
+    #overlay {
         background-color: rgba(16, 16, 16, 0.90);
         width: 100%;
         height: 100%;
