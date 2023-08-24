@@ -143,6 +143,20 @@ li {
         text-align: center;
     }
 
+    .overlay-nav ul a {
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .overlay-nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
 }
 
 /* Desktop Styles */
