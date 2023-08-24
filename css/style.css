@@ -157,6 +157,13 @@ li {
         gap: 10px;
     }
 
+    .close-icon {
+        color: #fff;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+    }
+
 }
 
 /* Desktop Styles */
