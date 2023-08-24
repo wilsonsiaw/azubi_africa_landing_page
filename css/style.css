@@ -164,6 +164,23 @@ li {
         right: 30px;
     }
 
+    #contact {
+        font-family: Roboto;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        padding: 20px 35px;
+    }
+
+    .overlay-nav li:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
+    .overlay-nav li:last-child {
+        margin-top: 20px;
+        height: 64px;
+        width: 225px;
+    }
+
 }
 
 /* Desktop Styles */
