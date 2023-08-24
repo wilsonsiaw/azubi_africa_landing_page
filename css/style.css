@@ -20,16 +20,18 @@ li {
 
 /* Mobile styles */
 @media screen and (max-width: 400px) {
-    header {
+    header .container {
         width: 393px;
         height: 70px;
+        padding: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 131px;
     }
 
-    .logo {
-        width: 200px;
-        height: 32px;
-        padding: 19px;
-        padding-right: 174px;
+    header .main-nav {
+        display: none;
     }
 }
 
