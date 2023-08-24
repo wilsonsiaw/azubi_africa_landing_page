@@ -21,6 +21,7 @@ li {
 /* Mobile styles */
 @media screen and (max-width: 400px) {
     header .container {
+        /* border: 1px solid red; */
         width: 393px;
         height: 70px;
         padding: 19px;
@@ -28,6 +29,17 @@ li {
         justify-content: space-between;
         align-items: center;
         gap: 131px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 32px;
+    }
+
+    .menu-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 23px;
     }
 
     header .main-nav {
