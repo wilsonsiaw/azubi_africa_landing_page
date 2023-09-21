@@ -179,6 +179,36 @@ li {
     }
 
     /* Choose Us Section */
+    .choose-us {
+        width: 393px;
+        height: 1514px;
+    }
+
+    .choose-us-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partner > p {
+        width: 280px;
+        height: 46px;
+        color: #2e5180;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 47px;
+    }
+
+    .system > p {
+        width: 287px;
+        height: 36px;
+        font-size: 0.9rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 14px;
+    }
 }
 
 /* Table Styles */
