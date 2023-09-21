@@ -105,6 +105,77 @@ li {
     .hero-container {
         width: 393px;
         height: 400px;
+        background-image: url("../images/hero_image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .hero-content {
+        width: 393px;
+        height: 132px;
+        background: rgb(255, 255, 255, 0.76);
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-content > p {
+        color: #2e5180;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .jobs {
+        width: 263px;
+        height: 30px;
+        color: #000;
+        text-align: center;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    /* About Us Section */
+    .about-us {
+        width: 393px;
+        height: 212px;
+        background: #2e5180;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-content {
+        color: #fff;
+        text-align: center;
+    }
+
+    .why > p {
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+
+    .learn > p {
+        width: 282px;
+        height: 90px;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 300;
+        font-style: normal;
     }
 }
 
