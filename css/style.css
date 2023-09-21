@@ -146,7 +146,37 @@ li {
     }
 
     /* About Us Section */
-    
+    .about-us {
+        width: 393px;
+        height: 212px;
+        background: #2e5180;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-content {
+        color: #fff;
+        text-align: center;
+    }
+
+    .why > p {
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+
+    .learn > p {
+        width: 282px;
+        height: 90px;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 300;
+        font-style: normal;
+    }
 }
 
 /* Table Styles */
