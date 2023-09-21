@@ -105,6 +105,25 @@ li {
     .hero-container {
         width: 393px;
         height: 400px;
+        background-image: url("../images/hero_image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .hero-content {
+        width: 393px;
+        height: 132px;
+        background: rgb(255, 255, 255, 0.76);
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
     }
 }
 
