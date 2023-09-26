@@ -177,6 +177,94 @@ li {
         font-weight: 300;
         font-style: normal;
     }
+
+    /* Choose Us Section */
+    .choose-us {
+        width: 393px;
+        height: 1514px;
+    }
+
+    .choose-us-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partner > p {
+        width: 280px;
+        height: 46px;
+        color: #2e5180;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+    .system > p {
+        width: 287px;
+        height: 36px;
+        font-size: 0.9rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .instructor-image,
+    .real-world-image,
+    .career-image {
+        width: 300px;
+        height: 186px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    figcaption {
+        width: 300px;
+        height: 21px;
+        margin: 0 auto;
+        color: #2e5180;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    figcaption + p {
+        width: 308px;
+        height: 54px;
+        text-align: center;
+        margin: 0 auto;
+
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 300;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 178px;
+        height: 36px;
+        color: #fff;
+        text-align: center;
+
+        border-radius: 50px;
+        background-color: #2e5180;
+        border-color: #2e5180;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
 }
 
 /* Table Styles */
