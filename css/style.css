@@ -339,6 +339,48 @@ li {
         border-radius: 50px;
     }
 
+    /* Footer section */
+    .footer-container {
+        width: 393px;
+        height: 291px;
+        background: rgba(46, 81, 128, 0.80);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .map-pin,
+    .phone {
+        color: #F7F7F7;
+        display: flex;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+
+    .map-pin > i {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-media-icons {
+        width: 200px;
+        color: #F7F7F7;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 /* Table Styles */
