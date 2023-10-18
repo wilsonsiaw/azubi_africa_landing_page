@@ -265,6 +265,80 @@ li {
     button:hover {
         cursor: pointer;
     }
+
+    /* Contact Us Section */
+    .contact-us-container {
+        width: 393px;
+        height: 612px;
+        background-color: #F7F7F7;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .first-paragraph {
+        color: #2e5180;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .contact-content {
+        width: 282px;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .form-container {
+        width: 317px;
+        height: 320px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    input,
+    textarea {
+        display: block;
+    }
+
+    input {
+        width: 317px;
+        height: 36px;
+        border: 1px solid #CDD6DD;
+        color: #8B8B8B;
+        font-size: 0.9rem;
+        text-indent: 10px;
+    }
+
+    textarea {
+        width: 317px;
+        height: 159px;
+        border: 1px solid #CDD6DD;
+        color: #8B8B8B;
+        font-family: Roboto;
+        text-indent: 10px;
+        text-justify: auto;
+        font-size: 0.9rem;
+        line-height: 40px;
+    }
+
+    #btn {
+        width: 317px;
+        height: 36px;
+        border-radius: 50px;
+    }
+
 }
 
 /* Table Styles */
