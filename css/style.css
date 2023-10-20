@@ -466,6 +466,130 @@ li {
 
 /* Desktop Styles */
 @media screen and (min-width: 961px) {
-  
+    header .container {
+        height: 130px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logo img {
+        width: 300px;
+        height: 60px;
+    }
+
+    .nav-list {
+        width: 600px;
+        height: 68px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .nav-list > li > a:last-child {
+        color: #000;
+        font-size: 30px;
+    }
+
+    #contact1 {
+        width: 225px;
+        height: 64px;
+        border: 2px solid #2e5180;
+        border-radius: 45px;
+        padding: 15px;
+    }
+
+    #overlay {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero-container {
+        height: 968px;
+        background-image: url(../images/hero_image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        
+    }
+
+    .hero-content {
+        width: 100vw;
+        height: 284px;
+        background: rgb(255, 255, 255, 0.76);
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-content > p {
+        width: 630px;
+        height: 36px;
+        color: #2e5180;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .jobs {
+        width: 700px;
+        height: 56px;
+        color: #000;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    /* About Us Section */
+    .about-us {
+        height: 408px;
+        background-color: #2e5180;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .why {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .learn {
+        width: 800px;
+        height: 90px;
+        color: #f2f2f2;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 300;
+    }
+    
+
 }
 
