@@ -621,10 +621,9 @@ li {
         font-weight: 300;
         margin-top: -30px;
     }
-
+    
     .grid-container {
         border: 1px solid red;
-        /* width: 1378px; */
         height: 729px;
 
         display: grid;
@@ -632,13 +631,14 @@ li {
         align-items: center;
     }
 
+    
     .instructor-led,
     .real-world,
     .career {
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
     }
 
     .instructor-image img,
@@ -647,6 +647,18 @@ li {
         width: 400px;
         height: 247px;
     }
+
+    figcaption {
+        font-size: 30px;
+        color: #2e5180;
+        font-weight: 500;
+        margin: auto;
+    }
+
+    #led {
+        margin-top: -20px;
+    }
+
 
 }
 
