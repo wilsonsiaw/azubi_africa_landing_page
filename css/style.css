@@ -589,7 +589,64 @@ li {
         font-size: 26px;
         font-weight: 300;
     }
+
+    .choose-us-content {
+        height: 974px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
     
+
+    .partner {
+        width: 800px;
+        height: 70px;
+        color: #2e5180;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .system {
+        width: 800px;
+        height: 30px;
+        font-size: 26px;
+        text-align: center;
+        font-weight: 300;
+        margin-top: -30px;
+    }
+
+    .grid-container {
+        border: 1px solid red;
+        /* width: 1378px; */
+        height: 729px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .instructor-led,
+    .real-world,
+    .career {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .instructor-image img,
+    .real-world-image img,
+    .career-image img {
+        width: 400px;
+        height: 247px;
+    }
 
 }
 
